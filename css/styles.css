@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
 
@@ -7,9 +6,9 @@
 @import url("sections/hero.css");
 @import url("sections/about.css");
 @import url("sections/popular.css");
-/* @import url("sections/trending.css"); */
-/* @import url("sections/subscribe.css"); */
-/* @import url("sections/footer.css"); */
+@import url("sections/trending.css");
+@import url("sections/subscribe.css");
+@import url("sections/footer.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
@@ -22,7 +21,7 @@
   --black-200: #020202;
   --black-300: #333333;
   --black-400: #1f1e31;
-  --black-500: #555555;
+  --black-500: #555555; 
   --gray-100: #888888;
 
   --color-white: #fff;
